@@ -1,0 +1,24 @@
+{
+    "name": "praticando/projeto",
+    "description": "Praticando projeto",
+    "minimum-stability": "stable",
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\" : "source/"
+        },
+        "files":[
+            "source/Boot/Config.php",
+            "source/Boot/Helpers.php"
+        ]
+    }, 
+    "require": {
+        "php": "^7.3",
+        "coffeecode/router": "^1.0"
+       
+    }
+
+    
+}

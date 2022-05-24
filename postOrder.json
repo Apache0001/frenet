@@ -1,0 +1,104 @@
+{
+    "ShipmentId": 0,
+    "TrackingNotificationUrl": "string",
+    "StatusNotificationUrl": "string",
+    "BranchCode": "string",
+    "Order": {
+      "Id": "string",
+      "Value": 0,
+      "Created": "2022-05-11T13:02:06.180Z",
+      "UseFrenetRegistration": true,
+      "Items": [
+        {
+          "OrderId": "string",
+          "ItemId": "string",
+          "ProductId": "string",
+          "ProductOptions": "string",
+          "ProductType": "string",
+          "Weight": 0,
+          "Length": 0,
+          "Height": 0,
+          "Width": 0,
+          "Quantity": 0,
+          "Price": 0,
+          "IsFragile": true,
+          "ProductName": "string",
+          "SKU": "string",
+          "Category": "string"
+        }
+      ],
+      "From": {
+        "Email": "string",
+        "Name": "string",
+        "Phone": "string",
+        "Cellphone": "string",
+        "Document": "string",
+        "IE": "string",
+        "Address": {
+          "ZipCode": "string",
+          "City": "string",
+          "Street": "string",
+          "AddressNumber": "string",
+          "AddressComplement": "string",
+          "AddressQuarter": "string",
+          "AddressState": "string",
+          "PostalBoxCode": "string",
+          "Country": "string"
+        }
+      },
+      "To": {
+        "Email": "string",
+        "Name": "string",
+        "Phone": "string",
+        "Cellphone": "string",
+        "Document": "string",
+        "IE": "string",
+        "Address": {
+          "ZipCode": "string",
+          "City": "string",
+          "Street": "string",
+          "AddressNumber": "string",
+          "AddressComplement": "string",
+          "AddressQuarter": "string",
+          "AddressState": "string",
+          "PostalBoxCode": "string",
+          "Country": "string"
+        }
+      },
+      "Invoice": {
+        "Value": 0,
+        "Number": "string",
+        "Series": "string",
+        "Key": "string",
+        "Date": "2022-05-11T13:02:06.180Z",
+        "CFOP": "string"
+      }
+    },
+    "Volumes": {
+      "VolumeId": 0,
+      "Weight": 0,
+      "Length": 0,
+      "Height": 0,
+      "Width": 0,
+      "Price": 0,
+      "DeclaredValue": 0,
+      "OrderItemsId": [
+        "string"
+      ]
+    },
+    "Quotation": {
+      "ShippingServiceCode": "string",
+      "ShippingServiceName": "string",
+      "PlatformShippingPrice": 0,
+      "DeliveryTime": 0,
+      "Carrier": "string",
+      "CarrierCode": "string",
+      "ShippingPrice": 0,
+      "ShippingCompetitorPrice": 0,
+      "Services": {
+        "DeclaredValue": true,
+        "ReceiptNotification": true,
+        "OwnHand": true
+      }
+    }
+  }
